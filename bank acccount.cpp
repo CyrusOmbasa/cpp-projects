@@ -36,13 +36,18 @@ int main()
 return 0;
 }
 void showBalance(double balance){
-    std::cout<<"your balance is: $"<<balance<<\n
+   std::cout<<"your balance is: $"<<balance<<'\n';
 
 }
 double deposit(){
+    
+        double amount=0;
+        std::cout<<"enter amount to be deposited";
+        std::cin>>amount;
+    
     return 0;
 
 }
 double withdraw(double balance){
-
+return 0;
 }
